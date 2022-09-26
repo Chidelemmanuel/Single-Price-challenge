@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+.whole-container {
+    width: 50%;
+    margin: 0px auto;
+    background-color: hsl(218, 84%, 93%);
+    height: 61vh;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.first-container {
+    width: 100%;
+    background-color: aliceblue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 20px 30px;
+}
+
+h2 { font-size: 20px;
+    color: hsl(179, 62%, 43%);
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 15px;
+    color: hsl(71, 73%, 54%);
+    margin-top: 20px;
+}
+
+p {
+    font-size: 11px;
+    font-weight: 700;
+    color: hsl(218, 22%, 67%);
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.wrap-all {
+    display: flex;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(179, 84%, 32%);
+    border-bottom-left-radius: 7px;
+    padding: 28px 37px;
+}
+
+.monthly {
+    color: #fff;
+}
+
+.currency {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.dollar {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.per {
+    font-size: 15px;
+    color: rgb(193, 187, 187);
+}
+
+.full {
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    width: 100%;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;    
+}
+
+.third-container {
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(179, 91%, 39%);
+    flex-direction: column;
+    width: 25%;
+    border-bottom-right-radius: 7px;
+}
+
+.third-container > h4 {
+    color: #fff;
+}
+   
+.last-text {
+    color: #fff;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+@media (min-width: 320px) {
+    .whole-container {
+        width: 90%;
+    }
+
+    .first-container p {
+        font-size: 11px;
+    }
+
+    .wrap-all {
+        flex-direction: column;
+    }
+
+    .second-container {
+        width: 100%;
+        border-bottom-left-radius: 0px;
+    }
+
+    .per {
+        font-weight: 400;
+    }
+
+    .third-container {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 40px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .attribution {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 768px) {
+    .whole-container {
+        width: 90%;
+    }
+
+    .first-container p {
+        font-size: 14px;
+    }
+
+    .wrap-all {
+        flex-direction: row;
+    }
+
+    .second-container {
+        width: 100%;
+        border-bottom-left-radius: 0px;
+    }
+
+    .third-container {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 40px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .attribution {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .whole-container {
+        width: 50%;
+
+    }
+
+    .first-container p {
+        font-size: 14px;
+    }
+
+    .wrap-all {
+        flex-direction: row;
+    }
+
+    .second-container {
+        width: 100%;
+        border-bottom-left-radius: 0px;
+    }
+
+    .third-container {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 40px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .attribution {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1350px) {
+    .whole-container {
+        width: 50%;
+    }
+
+    .first-container p {
+        font-size: 14px;
+    }
+
+    .wrap-all {
+        flex-direction: row;
+    }
+
+    .second-container {
+        width: 100%;
+        border-bottom-left-radius: 0px;
+    }
+
+    .third-container {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 40px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .attribution {
+        font-size: 18px;
+    }
+}
